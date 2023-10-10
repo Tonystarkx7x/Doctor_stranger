@@ -4,9 +4,9 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 \n★ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs."""
 
-    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Tony_stark_movies_bot><b>Tony Stark</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Doctor_strange_movie_bot><b>Doctor Strange</b></a>\n
 👑 Oᴡɴᴇʀ : <a href=@starkx77><b>🏆 Stark 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/SA_update><b>⚡ Tony_Bots ⚡</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/tonystarkbotsx><b>⚡ Tony_Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
