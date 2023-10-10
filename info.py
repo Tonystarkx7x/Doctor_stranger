@@ -15,13 +15,13 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_Bot')
 API_ID = int(environ.get('API_ID', '21704050'))
 API_HASH = environ.get('API_HASH', 'e041fa0ce06faa8a8e61d89b0c8a15df')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6637431353:AAHSg36Gem-70Ca796hXcBhczzEG75OtE9s')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6553893485:AAGFqbrfjzYDTKJsp5eX7fbNGtSRxOCZNOM')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/312974ad89db6a6a7c329.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/41d36f43b07ec60e4bcf3.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
@@ -42,9 +42,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Stark_bots:K7a47yAyWDaX6efq@starkbots.cdmndsz.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Starkbots")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Starkbots')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Doctorstranger:Boss.1234@doctorstranger.8oswhtk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Doctorstranger")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Doctorstranger')
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zxlink.in')
