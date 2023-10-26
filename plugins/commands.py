@@ -23,13 +23,13 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/tonystarkbotsx')
+                InlineKeyboardButton('📣 ᴜᴘᴅᴀᴛᴇ 📣', url='https://t.me/tonystarkbotsx')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@sa.editz_0'),
+                InlineKeyboardButton('♠️ ꜱᴜʙꜱᴄʀɪʙᴇ ♠️', url='https://youtube.com/@STARKBotZ7'),
             ],
             [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/starkx77')
+                InlineKeyboardButton('🎗️ ᴏᴡɴᴇʀ 🎗️',url='https://t.me/starkx77')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,18 +45,18 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕',
+            InlineKeyboardButton('💸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💸',
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Movies Group 🔍', url='https://t.me/allmovies4udownloder'),
+                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/allmovies4udownloder'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/starkx77')
+                '🤖 ᴜᴘᴅᴀᴛᴇ 🤖', url='https://t.me/starkx77')
         ], [
-            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
+            InlineKeyboardButton('📚 ​🇭​​🇪​​🇱​​🇵 ​📚', callback_data='help'),
+            InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Shortener Website 🔗',
+            InlineKeyboardButton('🔗 ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ 🔗',
                                  url=f'https://mklinks.in/ref/mklinks')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -97,18 +97,18 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕',
+            InlineKeyboardButton('💸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💸',
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
              InlineKeyboardButton(
-                '🔍 Movies Group 🔍', url='https://t.me/allmovies4udownloder'),
+                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/allmovies4udownloder'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/starkx77')
+                '🤖 ᴜᴘᴅᴀᴛᴇ 🤖', url='https://t.me/starkx77')
         ], [
-            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
+            InlineKeyboardButton('📚 ​🇭​​🇪​​🇱​​🇵 📚', callback_data='help'),
+            InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Shortener Website 🔗',
+            InlineKeyboardButton('🔗 ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ 🔗',
                                  url=f'https://mklinks.in/ref/mklinks')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -162,7 +162,7 @@ async def start(client, message):
                          [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/moviesuploaderbotprovider'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/tonystarkbotsx')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/starkx77")
+                          InlineKeyboardButton("⚡ Bᴏᴛ Oᴡɴᴇʀ ⚡", url="t.me/starkx77")
                          ]
                         ]
                     )
@@ -180,7 +180,7 @@ async def start(client, message):
                          [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/moviesuploaderbotprovider'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/tonystarkbotsx')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/starkx77")
+                          InlineKeyboardButton("⚡ Bᴏᴛ Oᴡɴᴇʀ ⚡", url="t.me/starkx77")
                          ]
                         ]
                     )
@@ -251,7 +251,7 @@ async def start(client, message):
                           InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/moviesuploaderbotprovider'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/tonystarkbotsx')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/starkx77")
+                          InlineKeyboardButton("⚡ Bᴏᴛ Oᴡɴᴇʀ ⚡", url="t.me/starkx77")
                          ]
                         ]
                     )
@@ -294,7 +294,7 @@ async def start(client, message):
                           InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/moviesuploaderbotprovider'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/tonystarkbotsx')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/starkx77")
+                          InlineKeyboardButton("⚡ Bᴏᴛ Oᴡɴᴇʀ ⚡", url="t.me/starkx77")
                          ]
                         ]
                     )
@@ -828,7 +828,7 @@ async def removetutorial(bot, message):
 async def shortlink(bot, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !</b>")
+        return await message.reply_text(f"<b>Hey {message.from_user.mention}, ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ !</b>")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -849,4 +849,4 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'shortlink', shortlink_url)
     await save_group_settings(grpid, 'shortlink_api', api)
     await save_group_settings(grpid, 'is_shortlink', True)
-    await reply.edit_text(f"<b>⚡ Successfully Added Shortlink API For {title}.\n\n🔗 Current Shortlink Website: <code>{shortlink_url}</code>\n📣 Current API: <code>{api}</code></b>")
+    await reply.edit_text(f"<b>⚡ ★彡[ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ 🎉 ʏᴏᴜ ᴊᴜꜱᴛ ᴀᴅᴅᴇᴅ ʏᴏᴜʀ ꜱʜᴏʀᴛʟɪɴᴋ ᴀᴘɪ ꜰᴏʀ]彡★ {title}.\n\n🔗 ★彡[ᴄᴜʀʀᴇɴᴛ ꜱʜᴏʀᴛʟɪɴᴋ ᴡᴇʙꜱɪᴛᴇ]彡★: <code>{shortlink_url}</code>\n⚡ ★彡[ᴄᴜʀʀᴇɴᴛ ᴀᴘɪ]彡★: <code>{api}</code></b>")
