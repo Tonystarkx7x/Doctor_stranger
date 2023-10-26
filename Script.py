@@ -4,13 +4,13 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 \n★ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs."""
 
-    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Doctor_strange_movie_bot><b>Doctor Strange</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=@starkx77><b>🏆 Stark 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/tonystarkbotsx><b>⚡ Tony_Bots ⚡</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ 🤖: ​🇩​​🇴​​🇨​​🇹​​🇴​​🇷​ ​🇸​​🇹​​🇷​​🇦​​🇳​​🇬​​🇪​
+👑 ᴏᴡɴᴇʀ 👑: <a href=@starkx77><b>⚡ ꜱᴛᴀʀᴋ ⚡</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇ 📢: <a href=https://t.me/tonystarkbotsx><b>ꜱᴛᴀʀᴋ ɪɴᴅᴜꜱᴛʀɪᴇꜱ</b></a>\n
+📝 ʟᴀɴɢᴜᴀɢᴇ 📝: ᴘʏʀᴏɢʀᴀᴍ\n
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ 📚: ᴘʏᴛʜᴏɴ 3\n
+📡 ʜᴏꜱᴛᴇᴅ ᴏɴ 📡: ʀᴇɴᴅᴇʀ\n
+🌟 ᴠᴇʀꜱɪᴏɴ 🌟: ᴠ5.3\n</b></i>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is An Private Project
@@ -117,13 +117,13 @@ Nᴀᴍᴇ - {}"""
 
     OLD_ALRT_TXT = """🔆 Hey {}, ❗Link Expired, Please Request Again ♻"""
 
-    CUDNT_FND = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/SA_movie_request_group)</i></b>"""
+    CUDNT_FND = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/moviesuploderbotprovider)</i></b>"""
 
-    I_CUDNT = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/SA_movie_request_group)</i></b>"""
+    I_CUDNT = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/moviesuploderbotprovider)</i></b>"""
 
-    I_CUD_NT = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/SA_movie_request_group)</i></b>"""
+    I_CUD_NT = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/moviesuploderbotprovider)</i></b>"""
 
-    MVE_NT_FND = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/SA_movie_request_group)</i></b>"""
+    MVE_NT_FND = """<b><i>⚠ No Results, Please Send Movie Name In Request Group!</i></b> \n <b><i>♀ Request Group › [Click Here](https://t.me/moviesuploderbotprovider)</i></b>"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 1 Million Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -132,7 +132,7 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Shahil akhtar
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴀɴꜱʜ ᴘᴀᴛᴇʟ
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/starkx77'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
@@ -171,7 +171,7 @@ Owner Will Update The Movie Within 24Hour"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ :<a href=https://t.me/tonystarkbotsx> {file_name} </a>"""
 
-    IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title} \nThis Message Will Be Deleted After 10 Minutes To Avoid Copyright"""
+    IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝒜𝒷𝑜𝓊𝓉 :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title} \n\n🎀ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ\n\n👑 ʙᴏᴛ ᴏᴡɴᴇʀ : <a href=@starkx77><b>⚡ ꜱᴛᴀʀᴋ ⚡</b></a>\n """
 
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
