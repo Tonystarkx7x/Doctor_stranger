@@ -49,7 +49,7 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/allmovies4udownloder'),
+                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/Allmovie4uuu'),
             InlineKeyboardButton(
                 '🤖 ᴜᴘᴅᴀᴛᴇ 🤖', url='https://t.me/starkx77')
         ], [
@@ -101,7 +101,7 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
              InlineKeyboardButton(
-                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/allmovies4udownloder'),
+                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/Allmovie4uuu'),
             InlineKeyboardButton(
                 '🤖 ᴜᴘᴅᴀᴛᴇ 🤖', url='https://t.me/starkx77')
         ], [
