@@ -42,7 +42,7 @@ async def save_group(bot, message):
                 InlineKeyboardButton('📣 ᴜᴘᴅᴀᴛᴇ 📣', url='https://t.me/tonystarkbotsx')
             ],
             [
-                InlineKeyboardButton('♠️ ꜱᴜʙꜱᴄʀɪʙᴇ ♠️', url='https://youtube.com/@sa.editz_0'),
+                InlineKeyboardButton('♠️ ꜱᴜʙꜱᴄʀɪʙᴇ ♠️', url='https://youtube.com/@STARKBotZ7'),
             ],
             [
                 InlineKeyboardButton('🎗️ ᴏᴡɴᴇʀ 🎗️',url='https://t.me/starkx77')
@@ -50,7 +50,7 @@ async def save_group(bot, message):
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            text=f"<b>🎀ᴛʜᴀɴᴋʏᴏᴜ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} ❣️\n\nɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴꜱ & ᴅᴏᴜʙᴛꜱ ᴀʙᴏᴜᴛ ᴜꜱɪɴɢ ᴍᴇ ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ.</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
