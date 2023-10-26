@@ -905,18 +905,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕',
+            InlineKeyboardButton('💸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ 💸',
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Movies Group 🔍', url='https://t.me/allmovies4udownloder'),
+                '🍿 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🍿', url='https://t.me/allmovies4udownloder'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/tonystarkbotsx')
+                '🤖 ᴜᴘᴅᴀᴛᴇ 🤖 ', url='https://t.me/tonystarkbotsx')
         ], [
-            InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
+            InlineKeyboardButton('📚 ʜᴇʟᴘ 📚', callback_data='help'),
+            InlineKeyboardButton('🌐 ᴀʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Shortener Website 🔗',
+            InlineKeyboardButton('🔗 ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ 🔗',
                                  url=f'mklinks.in')
         ]] 
         
@@ -1564,7 +1564,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🔗 Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("🔗 Gᴏᴏɢʟᴇ 🔗", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_photo(
@@ -1579,7 +1579,7 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🔗 Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("🔗 Gᴏᴏɢʟᴇ 🔗 ", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
