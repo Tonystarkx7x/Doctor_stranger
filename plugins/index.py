@@ -135,12 +135,12 @@ async def set_skip_number(bot, message):
 
 
 async def index_files_to_db(lst_msg_id, chat, msg, bot):
-    total_files = 0
-    duplicate = 0
-    errors = 0
-    deleted = 0
-    no_media = 0
-    unsupported = 0
+    ​🇹​​🇴​​🇹​​🇦​​🇱​ ​🇫​​🇮​​🇱​​🇪​​🇸​ = 0
+    ᴅᴜᴘʟɪᴄᴀᴛᴇ = 0
+    ᴇʀʀᴏʀ = 0
+    ​🇩​​🇪​​🇱​​🇪​​🇹​​🇪​​🇩​ = 0
+    ɴᴏ_ᴍᴇᴅɪᴀ = 0
+    ᴜɴꜱᴜᴘᴘᴏʀᴛᴇᴅ = 0
     async with lock:
         try:
             current = temp.CURRENT
@@ -182,4 +182,4 @@ async def index_files_to_db(lst_msg_id, chat, msg, bot):
             logger.exception(e)
             await msg.edit(f'Error: {e}')
         else:
-            await msg.edit(f'Succesfully saved <code>{total_files}</code> to dataBase!\nDuplicate Files Skipped: <code>{duplicate}</code>\nDeleted Messages Skipped: <code>{deleted}</code>\nNon-Media messages skipped: <code>{no_media + unsupported}</code>(Unsupported Media - `{unsupported}` )\nErrors Occurred: <code>{errors}</code>')
+            await msg.edit(f'ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ꜱᴀᴠᴇᴅ <code>{total_files}</code> ᴛᴏ ᴅᴀᴛᴀʙꜱᴇ!\n​🇩​​🇺​​🇵​​🇱​​🇮​​🇨​​🇦​​🇹​​🇪​ ​🇫​​🇮​​🇱​​🇪​ ​🇸​​🇰​​🇮​​🇵​​🇵​​🇪​​🇩: <code>{duplicate}</code>\n🇩​​🇪​​🇱​​🇪​​🇹​​🇪​​🇩​ ​🇲​​🇸​​🇬​ ​🇸​​🇰​​🇮​​🇵​​🇵​​🇪​​🇩​: <code>{deleted}</code>\n​🇳​​🇴​​🇳​-​🇲​​🇪​​🇩​​🇮​​🇦​ ​🇲​​🇸​​🇬​ ​🇸​​🇰​​🇮​​🇵​​🇵​​🇪​​🇩​: <code>{no_media + unsupported}</code>(ᴜɴꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴇᴅɪᴀ - `{unsupported}` )\nᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ: <code>{errors}</code>')
